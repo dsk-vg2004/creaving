@@ -1,0 +1,436 @@
+/* ===== Tablet Screen (768px - 1024px) ===== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: 15px;
+    }
+
+
+    .header-1 {
+        height: auto;
+        row-gap: 20px;
+    }
+
+    .container-2 #col1,
+    #col2 {
+        width: 50% !important;
+    }
+
+    .header-1 .container-2 #col1 p {
+        font-size: 32px;
+    }
+
+    .header-1 .container-2 #col2 {
+        display: flex;
+        flex-direction: row;
+        row-gap: 16px;
+    }
+
+
+    .header-1 .container-2 #col3 {
+        display: none !important;
+    }
+
+
+    .page-1 {
+        background-size: cover;
+        background-position: center;
+        min-height: 80vh;
+    }
+
+    .page-1 #col1 p {
+        font-size: 72px;
+        line-height: 1.2;
+        margin-bottom: 40px;
+    }
+
+
+    .page-1 #col2 p {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+
+    .container4th {
+        min-height: 135vh;
+    }
+
+    .nextPage2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .itemsInCol {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        /* More padding */
+    }
+
+    .container5th #para3 {
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+
+    /* Image Sections */
+    .container5th .col-6 img,
+    .container7th .itemInRow7-1 img {
+        max-width: 110%;
+        height: auto;
+    }
+
+    .container5th {
+        height: 100vh;
+    }
+
+    .container5th .container {
+        height: 65vh;
+        /* margin: auto auto; */
+    }
+
+    .container5th .container .button32 {
+        display: none;
+    }
+
+    .container5th #para4 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .container5th #para5 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+    }
+
+    .container5th button {
+        margin-top: 40px;
+        box-sizing: border-box;
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        height: 60px;
+        width: 173px;
+        /* padding: 20px 32px; */
+        border-radius: 40px;
+    }
+
+    .container6th {
+        /* height: 90vh; */
+        height: 185vh;
+    }
+
+    .container6th .container {
+        height: 155vh;
+    }
+
+    .row6th-2 .itemsInRow2 {
+        /* border: 1px solid black; */
+        height: 344px;
+        width: 306px;
+    }
+
+    .row6th-2 {
+        margin-top: 20px;
+        height: 938px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 24px;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+
+    .container7th {
+        height: 60vh;
+    }
+
+    .container7th .container {
+        height: 45vh;
+    }
+
+    .itemInRow7-2 .item7-1 {
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+
+    .itemInRow7-2 .item7-2 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .itemInRow7-2 .item7 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 18px;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .itemInRow7-2 .item7 img {
+        margin-right: 20px;
+        height: 25px;
+        width: 25px;
+    }
+
+
+
+    .container8th {
+        height: 170vh;
+    }
+
+    .row8-2 .div8-1 {
+        background-color: #F9F9F7;
+        border-radius: 12px;
+        height: 490px;
+        width: 300px;
+        box-sizing: border-box;
+        padding: 45px 35px 35px 35px;
+        margin-bottom: 20px;
+    }
+
+    .container9th {
+        display: none !important;
+    }
+
+    /* Footer */
+    .item10th-3 {
+        width: 235px;
+        height: 419px;
+    }
+
+    .atom1 img {
+        width: 50px;
+        height: 60px;
+    }
+
+    .atom5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .atom5 img {
+        width: 45%;
+        max-height: 180px;
+    }
+}
+
+/* ===== Mobile Screen (up to 767px) ============================================================================== */
+@media screen and (max-width: 767px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .header-1 {
+        row-gap: 10px;
+        margin-bottom: -8px;
+    }
+
+    .header-1 .container-1 #bomb2 {
+        display: none !important;
+    }
+
+    .header-1 .container-1 #bomb1 {
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-1 .container-2 #col1 {
+        width: 100% !important;
+    }
+
+    .header-1 .container-2 #col2 {
+        display: none !important;
+    }
+
+    .header-1 .container-2 #col3 {
+        display: none !important;
+    }
+
+    .page-1 {
+        height: 90vh;
+    }
+
+    .page-1 #col1 p {
+        font-family: "Playfair Display", serif;
+        font-size: 60px;
+        line-height: 78px;
+    }
+
+    .nextPage2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .container4th {
+        height: 235vh;
+    }
+
+    .container5th {
+        height: 130vh;
+    }
+
+    .container5th .container {
+        height: 870px;
+    }
+
+    .container5th .row {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+    }
+
+    .container5th .row img {
+        height: 300px;
+        width: auto;
+    }
+
+    .container5th #para3 {
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+
+    .container5th #para4 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    .container5th #para5 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 13px;
+    }
+
+    .container5th .column2 {
+        padding-left: 17px;
+    }
+
+    .container6th {
+        height: 300vh;
+    }
+
+    .container6th .container {
+        height: 268vh;
+    }
+
+    .row6th-2 {
+        margin-top: 44px;
+        height: 443px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        row-gap: 24px;
+    }
+
+    .container7th {
+        height: 110vh;
+        background-color: #F9F9F7;
+    }
+
+    .container7th .row7th {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container7th .itemInRow7-1 img {
+        height: 300px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    .itemInRow7-2 .item7-1 {
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+
+    .itemInRow7-2 .item7-2 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    .itemInRow7-2 .item7 {
+        font-family: "DM Sans", sans-serif;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .container7th .item7 img {
+        height: 30px;
+        width: auto;
+        margin-right: 15px;
+    }
+
+    .container7th .container {
+        height: 595px;
+    }
+
+    .container8th {
+        height: 230vh;
+    }
+
+    .container8th .row8-1 {
+        margin-bottom: 25px;
+    }
+
+    .container9th {
+        display: none !important;
+    }
+
+    .container10th p,
+    a {
+        font-size: 13px;
+    }
+
+    .container10th img {
+        vertical-align: middle;
+        height: 67px;
+        width: 81px;
+    }
+
+    .atom1 img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .item10th-3 {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .atom1 .head10th {
+        font-size: 28px;
+    }
+
+    .atom1>p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .top-container {
+        justify-content: space-evenly !important;
+    }
+
+    .atom5 {
+        height: 355px;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+        row-gap: 10px;
+        flex-direction: column;
+    }
+}

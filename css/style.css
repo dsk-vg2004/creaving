@@ -1,0 +1,630 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.navBar-1 {
+    background-color: #272424;
+    color: white;
+    height: 45px;
+    font-size: 16px;
+}
+
+.nabBar-1-column {
+    padding-top: 11px;
+}
+
+.navBar-2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 55px;
+}
+
+.navBar-2-col1 p {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 42px;
+}
+
+.navBar-2-col2 a {
+    padding: 4px 16px;
+    height: 32px;
+    width: 77px;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar-2-col2 a:hover {
+    height: 32px;
+    width: 77px;
+    background-color: #DBDFD0;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navBar-2-col3 button {
+    border-radius: 20px;
+}
+
+.mainContent-3 {
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0px 0px;
+}
+
+.mainContent-3 .div3-1st p {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 4rem;
+    font-style: normal;
+}
+
+.mainContent-3 .container {
+    height: 392px;
+    width: 572px;
+}
+
+.div3-2nd {
+    margin-top: 32px;
+}
+
+.div3-3rd {
+    margin-top: 40px;
+}
+
+.div3-3rd button {
+    border-radius: 35px;
+    width: 164px;
+    height: 64px;
+}
+
+.button31 {
+    background-color: #AD343E;
+    color: white;
+    font-size: 16px;
+}
+
+.button32 {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+}
+
+.container4th {
+    height: 714px;
+}
+
+.nextPage p {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.nextPage2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+
+.itemsInCol {
+    border: 1px solid #DBDFD0;
+    border-radius: 10px;
+    height: 375px;
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 32px 34px 40px 34px;
+}
+
+.itemsInCol #para1 {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+}
+
+.itemsInCol #para2 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.itemsInCol #para3 {
+    font-family: "DM Sans", sans-serif;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #AD343E;
+}
+
+
+.container5th {
+    background-color: #F9F9F7;
+    height: 856px;
+}
+
+.container5th .container {
+    height: 616px;
+}
+
+.container5th #para3 {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    margin-bottom: 24px;
+}
+
+.container5th #para4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.container5th #para5 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.container5th button {
+    margin-top: 40px;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    height: 64px;
+    width: 180px;
+    padding: 20px 32px;
+    border-radius: 40px;
+}
+
+.container5th .column2 {
+    padding-left: 90px;
+}
+
+.container6th {
+    height: 868px;
+}
+
+.container6th .container {
+    height: 628px;
+}
+
+.container6th .columnn6-1 p {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-weight: medium;
+    line-height: 60px;
+}
+
+.container6th .container .row1 {
+    margin-bottom: 64px;
+}
+
+.row6th-2 {
+    margin-top: 64px;
+    height: 443px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.row6th-2 .itemsInRow2 {
+    height: 443px;
+    width: 306px;
+}
+
+.row6th-2 .itemsInRow2 img {
+    margin-bottom: 30px;
+}
+
+.row6th-2 .itemsInRow2 .line1 {
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.row6th-2 .itemsInRow2 .line2 {
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* 7th */
+
+.container7th {
+    height: 867px;
+    background-color: #F9F9F7;
+}
+
+.container7th .container {
+    height: 627px;
+}
+
+.container7th .container img {
+    height: 627px;
+    width: 745px;
+}
+
+.container7th .container .itemInRow7-2 {
+    margin-left: 90px;
+}
+
+.itemInRow7-2 .item7-1 {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-weight: medium;
+    margin-bottom: 20px;
+}
+
+.itemInRow7-2 .item7-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.itemInRow7-2 .item7 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.itemInRow7-2 .item7 img {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+/* 8th */
+.container8th {
+    height: 766px;
+}
+
+.container8th .row8-1 p {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-weight: medium;
+}
+
+.container8th .row8-1 {
+    margin-bottom: 64px;
+}
+
+.row8-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.row8-2 .div8-1 {
+    background-color: #F9F9F7;
+    border-radius: 12px;
+    height: 416px;
+    width: 408px;
+    box-sizing: border-box;
+    padding: 45px 35px 35px 35px;
+}
+
+.div8-1 .parag-1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #AD343E;
+    margin-bottom: 24px;
+}
+
+.div8-1 .parag-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin-bottom: 32px;
+}
+
+.div8-1 .parag-3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.div8-1 .parag-4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.div8-div {
+    box-sizing: border-box;
+    padding-top: 32px;
+    border-top: 1px solid #DBDFD0;
+}
+
+.div8-div img {
+    margin-right: 20px;
+}
+
+/* 9th */
+.container9th {
+    height: 1117px;
+    background-color: #f7f7f5;
+}
+
+.container9th .container {
+    height: 860px;
+}
+
+.container9th .row9-1 {
+    height: 64px;
+    margin-bottom: 64px;
+}
+
+.container9th .row9-1 p {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    font-weight: medium;
+}
+
+.container9th .row9-1 .button9 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 64px;
+    width: 192px;
+    background-color: #AD343E;
+    color: white;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    border-radius: 35px;
+}
+
+
+.row9-2 {
+    height: 732 px;
+    width: 1296px;
+}
+
+.row9-2 .col9-1 {
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 0;
+    height: 732px;
+    width: 636px;
+}
+
+.row9-2 .col9-1 img {
+    height: 456px;
+    width: 636px;
+    margin-bottom: 45px;
+}
+
+.row9-2 .col9-1 .para9-1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    color: #737865;
+    margin-bottom: 15px;
+    margin: 0px 35px 15px;
+}
+
+.row9-2 .col9-1 .para9-2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin: 0px 35px 15px;
+}
+
+.row9-2 .col9-1 .para9-3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    margin: 0px 35px;
+}
+
+.col9-2 {
+    margin-left: 24px;
+}
+
+.col9-2-1 {
+    background-color: white;
+    width: 306px;
+    height: 354px;
+    border-radius: 12px;
+}
+
+.col9-2-1 img {
+    margin-bottom: 30px;
+}
+
+.col9-2-1 p:nth-child(2) {
+    color: #737865;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0px 25px 12px;
+}
+
+.col9-2-1 p:last-child {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    margin: 0px 25px 14px;
+}
+
+.col9-2-2 {
+    background-color: white;
+    border-radius: 12px;
+    width: 306px;
+    height: 354px;
+    margin-top: 24px;
+}
+
+.col9-2-2 img {
+    margin-bottom: 30px;
+}
+
+.col9-2-2 p:nth-child(2) {
+    color: #737865;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0px 25px 12px;
+}
+
+.col9-2-2 p:last-child {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    margin: 0px 25px 14px;
+}
+
+.col9-3 {
+    margin-left: 24px;
+}
+
+.col9-3-1 {
+    background-color: white;
+    width: 306px;
+    height: 354px;
+    border-radius: 12px;
+}
+
+.col9-3-1 img {
+    margin-bottom: 30px;
+}
+
+.col9-3-1 p:nth-child(2) {
+    color: #737865;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0px 25px 12px;
+}
+
+.col9-3-1 p:last-child {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    margin: 0px 25px 14px;
+}
+
+.col9-3-2 {
+    background-color: white;
+    border-radius: 12px;
+    width: 306px;
+    height: 354px;
+    margin-top: 24px;
+}
+
+.col9-3-2 img {
+    margin-bottom: 30px;
+}
+
+.col9-3-2 p:nth-child(2) {
+    color: #737865;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: medium;
+    margin: 0px 25px 12px;
+}
+
+.col9-3-2 p:last-child {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: medium;
+    margin: 0px 25px 14px;
+}
+
+/* 10th */
+.container10th {
+    background-color: #474747;
+    color: white;
+    height: 778px;
+}
+
+.container10th .container {
+    box-sizing: border-box;
+    height: 573px;
+}
+
+.item10th-1 {
+    width: 293px;
+    height: 419px;
+}
+
+.item10th-2 {
+    width: 330px;
+    height: 419px;
+}
+
+.item10th-3 {
+    width: 403px;
+    height: 419px;
+}
+
+.atom1 .head10th {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.atom1>p:nth-child(2) {
+    font-family: "DM Sans", sans-serif;
+    color: #ADB29E;
+    font-size: 16px;
+}
+
+.atom2 {
+    height: 352px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.item10th-2>.atom2:first-child {
+    margin-bottom: 40px;
+}
+
+.atom3 {
+    height: 352px;
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.atom2 a,
+.atom3 a {
+    text-decoration: none;
+    color: #ADB29E;
+}
+
+.atom4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.atom5 {
+    height: 355px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item10th-4 {
+    height: 54px;
+    margin-bottom: 0px;
+    font-family: "DM Sans", sans-serif;
+    color: #ADB29E;
+    font-size: 16px;
+}
